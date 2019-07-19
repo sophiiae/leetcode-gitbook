@@ -1,6 +1,4 @@
-# Preface
-
-## "If you can't explain it simply, you don't understand it well enough. " –Albert Einstein
+# "If you can't explain it simply, you don't understand it well enough. " –Albert Einstein
 
 This book contains all the problem I have solved in [LeetCode](https://leetcode.com/). 
 
