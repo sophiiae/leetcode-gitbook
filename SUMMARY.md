@@ -1,12 +1,8 @@
 # Table of contents
 
 * [Preface](README.md)
-
-## Array <a id="array-1"></a>
-
-* [Two Sum](array-1/two-sum.md)
-
-## String
-
-* [Roman to Integer](string/roman-to-integer.md)
+* [Array](array/README.md)
+  * [Two Sum](array/two-sum.md)
+* [String](string-1/README.md)
+  * [Roman to Integer](string-1/roman-to-integer.md)
 
