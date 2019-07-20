@@ -1,20 +1,25 @@
 # Count Primes
-## Question 
+
+### Question
+
 Count the number of prime numbers less than a non-negative number, **n**.
 
 **Example:**
+
 ```text
 Input: 10
 Output: 4
 Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 ```
 
-## Method
-**Sieve of Eratosthenes** 
-(https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+### Method
 
-## Solution 
-**Note:** The question requires `less than` n. 
+**Sieve of Eratosthenes** \([https://en.wikipedia.org/wiki/Sieve\_of\_Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)\)
+
+### Solution
+
+**Note:** The question requires `less than` n.
+
 ```python
 def countPrimes(self, n: int) -> int:
     if n < 3: #number of primes < 3
@@ -27,3 +32,4 @@ def countPrimes(self, n: int) -> int:
                 sieve[j] = False
     return count
 ```
+
