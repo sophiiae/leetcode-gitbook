@@ -4,8 +4,9 @@
 * [Array](array/README.md)
   * [Two Sum](array/two-sum.md)
 * [String](string/README.md)
-  * [Roman to Integer](string/roman-to-integer.md)
-  * [Length of last word](string/length-of-last-word.md)
+  * [Add Binary](string/add-binary.md)
+  * [Length of Last Word](string/length-of-last-word.md)
 * [Math](math/README.md)
+  * [Sqrt\(x\)](math/sqrt-x.md)
   * [Count Primes](math/count-primes.md)
 

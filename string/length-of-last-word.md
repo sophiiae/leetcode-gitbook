@@ -1,4 +1,4 @@
-# Length of last word
+# Length of Last Word
 
 ## Question
 
@@ -16,6 +16,8 @@ Output: 5
 ```
 
 ## Code
+
+**Boundary case:** `"     Hello   "`
 
 ```python
 def lengthOfLastWord(self, s: str) -> int:
