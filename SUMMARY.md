@@ -9,4 +9,5 @@
 * [Math](math/README.md)
   * [Sqrt\(x\)](math/sqrt-x.md)
   * [Count Primes](math/count-primes.md)
+* [Data Structure](data-structure.md)
 
