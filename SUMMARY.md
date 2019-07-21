@@ -10,4 +10,9 @@
   * [Sqrt\(x\)](math/sqrt-x.md)
   * [Count Primes](math/count-primes.md)
 * [Data Structure](data-structure.md)
+* [Contest](contest/README.md)
+  * [Maximum of Absolute Value Expression](contest/maximum-of-absolute-value-expression.md)
+  * [Minimum Cost Tree From Leaf Values](contest/minimum-cost-tree-from-leaf-values.md)
+  * [Shortest Path with Alternating Colors](contest/shortest-path-with-alternating-colors.md)
+  * [Number of Equivalent Domino Pairs](contest/number-of-equivalent-domino-pairs.md)
 
