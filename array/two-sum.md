@@ -15,9 +15,9 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-## Method
+## **Hash Table**
 
-**Hash Table:** Calculate the `remainder` after subtracting element from target, if the remainder can be found in the loop up table, then we can get the `index` and return the result. Otherwise, we add current element to the table. 
+Calculate the `remainder` after subtracting element from target, if the remainder can be found in the loop up table, then we can get the `index` and return the result. Otherwise, we add current element to the table. 
 
 ## Complexity 
 

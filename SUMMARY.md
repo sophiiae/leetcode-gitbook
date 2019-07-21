@@ -2,6 +2,9 @@
 
 * [Preface](README.md)
 * [Array](array/README.md)
+  * [Maximum Subarray \(value\)](array/maximum-subarray-value.md)
+  * [Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
+  * [Container With Most Water](array/container-with-most-water.md)
   * [Two Sum](array/two-sum.md)
 * [String](string/README.md)
   * [Add Binary](string/add-binary.md)
