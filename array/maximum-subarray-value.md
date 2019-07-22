@@ -22,12 +22,12 @@ nums\[i\] &gt; nums\[i\] + cur\_sum, then count start from nums\[i\] and dump ev
 
 ```python
 def maxSubArray(self, nums: List[int]) -> int:
-        cur = s = nums[0]
-        for i in range(1, len(nums)):
-            cur = max(nums[i], cur + nums[i])
-            if cur > s: 
-                s = cur
-        return s
+    cur = s = nums[0]
+    for i in range(1, len(nums)):
+        cur = max(nums[i], cur + nums[i])
+        if cur > s: 
+            s = cur
+    return s
 ```
 
 ## Divide and Conquer 

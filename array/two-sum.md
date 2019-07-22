@@ -28,11 +28,6 @@ Calculate the `remainder` after subtracting element from target, if the remainde
 
 ```python
 def twoSum(self, nums, target):
-    """
-    :type nums: List[int]
-    :type target: int
-    :rtype: List[int]
-    """
     table = {}
     for i in range(0, len(nums)):
         remain = target - nums[i]

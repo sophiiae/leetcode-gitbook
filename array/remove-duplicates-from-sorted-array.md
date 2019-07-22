@@ -36,16 +36,16 @@ If nums\[k\] is duplicate, put in i+1\(since k goes faster than i, so k &gt; i\)
 
 ```python
 def removeDuplicates(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        i, k = 0, 1
-        while (k < len(nums)):
-            if nums[k] != nums[i]:
-                nums[i+1] = nums[k]
-                i += 1
-            k += 1
-        return i+1
+    """
+    :type nums: List[int]
+    :rtype: int
+    """
+    i, k = 0, 1
+    while (k < len(nums)):
+        if nums[k] != nums[i]:
+            nums[i+1] = nums[k]
+            i += 1
+        k += 1
+    return i+1
 ```
 
