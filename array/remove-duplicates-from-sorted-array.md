@@ -32,6 +32,11 @@ Two Pointers: i for distinct element, k for searching.
 
 If nums\[k\] is duplicate, put in i+1\(since k goes faster than i, so k &gt; i\). Therefore, nums\[0... i\] are the distinct elements in original array. 
 
+## Complexity 
+
+* Time complexity: O\(n\)
+* Space complexity: O\(1\)
+
 ## Code 
 
 ```python
