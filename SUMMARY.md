@@ -25,6 +25,7 @@
   * [Implement strStr\(\)](string/implement-strstr.md)
   * [Reverse String](string/reverse-string.md)
   * [To Lower Case](string/to-lower-case.md)
+  * [Unique Email Addresses](string/unique-email-addresses.md)
   * [Unique Morse Code Words](string/unique-morse-code-words.md)
   * [Valid Parentheses](string/valid-parentheses.md)
   * [Valid Palindrome](string/valid-palindrome.md)
