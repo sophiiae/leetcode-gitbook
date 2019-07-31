@@ -17,6 +17,7 @@
   * [Relative Sort Array](array/relative-sort-array.md)
   * [Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
   * [Sort Array By Parity](array/sort-array-by-parity.md)
+  * [Sort Array By Parity II](array/sort-array-by-parity-ii.md)
   * [Squares of a Sorted Array](array/squares-of-a-sorted-array.md)
   * [Two Sum](array/two-sum.md)
   * [Two Sum II - Input array is sorted](array/two-sum-ii-input-array-is-sorted.md)
