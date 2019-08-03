@@ -9,7 +9,8 @@ description: JavaScript syntax
 * [Queue](linear-data-structure.md#queue)
 * [Linked List](linear-data-structure.md#linked-list)
 * [JavaScript Iteration Method](linear-data-structure.md#js-iteration-methods)
-* [JavaScript Loops](linear-data-structure.md#javascript-loops)
+* [JavaScript Loop](linear-data-structure.md#javascript-loop)
+* JavaScript Function
 
 ## Array
 
@@ -116,7 +117,7 @@ arr2.reduce((accumulator, cur) => accumulator + cur)); // 24, init val = first e
 arr2.reduce((accumulator, cur) => accumulator + cur), 6); // 30, init val = 6
 ```
 
-## JavaScript Loops
+## JavaScript Loop
 
 **for...in statement**
 
@@ -169,5 +170,9 @@ mark: x += 2;
 break;  //like in switch loop
 ```
 
+## JavaScript Function
 
+```javascript
+
+```
 
