@@ -10,7 +10,7 @@ description: JavaScript syntax
 * [Linked List](linear-data-structure.md#linked-list)
 * [JavaScript Iteration Method](linear-data-structure.md#js-iteration-methods)
 * [JavaScript Loop](linear-data-structure.md#javascript-loop)
-* JavaScript Function
+* [JavaScript Function](linear-data-structure.md#javascript-function)
 
 ## Array
 
@@ -38,6 +38,9 @@ arr.toString(); // "1,6"
 
 ## Stack 
 
+       ![](https://miro.medium.com/max/770/1*De8zfOowwtRZg2jBTGPvhg.jpeg)![](https://miro.medium.com/max/550/1*2S145xm6QZ9juHRGRFVHtg.jpeg)Push vs Pop functions  
+
+
 **Last-In First-Out\(LIFO\)** 
 
 * Push / Pop – O\(1\)
@@ -52,6 +55,8 @@ stack.shift();      //remove and return first element ['k']
 ```
 
 ## Queue
+
+![](https://miro.medium.com/max/550/1*Vs3HF926_6s7vI_OCv3rTQ.jpeg)![](https://miro.medium.com/max/550/1*wN83zdV3arHyUl5GQXxRfw.jpeg)
 
 **First-In First-Out\(FIFO\)** 
 
@@ -173,6 +178,10 @@ break;  //like in switch loop
 ## JavaScript Function
 
 ```javascript
-
+const nums = [3,4,2,1,6];
+/* call a function this a given this value and an array argument */
+let max = Math.max.apply(null,numbers); //6
+/* call a function this a given this value and an argument list */
+let min = Math.min.call(null,4,3,2); //2
 ```
 

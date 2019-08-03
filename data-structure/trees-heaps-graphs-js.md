@@ -84,15 +84,38 @@
   * Every path from a node to any its descendant Null node has same number of black nodes
 * Preferred for lots insertions and deletions
 
-## Heaps
+## Heaps 
+
+* Binary tree with **additional rules**
+* **Complete binary tree** – last node of the heap is the rightmost node of depth _h_
+* Build Heap: Botton up heap construction – O\(n\)
+* Insertion: upheap – O\(log n\)
+* Deletion: downheap – O\(log n\)
 
 ### Max Heap
 
-### Min Heap
+* Parent node values are **greater** than their children
+
+                               ![](https://miro.medium.com/max/551/1*XSchy2OiWWwlkPNhhoKVBg.png)  
+
+
+### Min Heap / Priority Queue
+
+* Parent node values are **less** than their children
+
+[                                    ![MinHeap](https://camo.githubusercontent.com/16e4220b69a866f97cc20d934c4b16fe5b9147de/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f362f36392f4d696e2d686561702e706e67)](https://camo.githubusercontent.com/16e4220b69a866f97cc20d934c4b16fe5b9147de/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f362f36392f4d696e2d686561702e706e67)
 
 ## Graphs
 
+![](https://miro.medium.com/max/770/1*VM84VPcCQe0gSy44l9S5yA.jpeg)
+
 ### Depth First Search 
 
+* Traversing down through one branch to the leaf, then back to "trunk".
+* Use **Stack** – O\(n\)
+
 ### Breadth First Search
+
+* Search through a tree one level at a time
+* Use **Queue** – O\(n\)
 
