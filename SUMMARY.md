@@ -39,6 +39,7 @@
   * [Sqrt\(x\)](math/sqrt-x.md)
   * [Count Primes](math/count-primes.md)
 * [Data Structure](data-structure/README.md)
+  * [Hash Table, Map, Object, Set \(JS\)](data-structure/hash-table-map-object-set-js.md)
   * [Linear Data Structure \(JS\)](data-structure/linear-data-structure.md)
   * [Trees, Heaps, Graphs](data-structure/trees-heaps-graphs-js.md)
   * [HashSet & HashMap & HashTable in Java](data-structure/hashset-and-hashmap-and-hashtable-in-java.md)
