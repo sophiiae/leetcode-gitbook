@@ -40,7 +40,7 @@
   * [Count Primes](math/count-primes.md)
 * [Data Structure](data-structure/README.md)
   * [Linear Data Structure \(JS\)](data-structure/linear-data-structure.md)
-  * [Trees, Heaps, Graphs \(JS\)](data-structure/trees-heaps-graphs-js.md)
+  * [Trees, Heaps, Graphs](data-structure/trees-heaps-graphs-js.md)
   * [HashSet & HashMap & HashTable in Java](data-structure/hashset-and-hashmap-and-hashtable-in-java.md)
 * [Contest](contest/README.md)
   * [Easy](contest/easy/README.md)

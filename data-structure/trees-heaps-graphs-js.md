@@ -1,4 +1,4 @@
-# Trees, Heaps, Graphs \(JS\)
+# Trees, Heaps, Graphs
 
 * [Trees ](trees-heaps-graphs-js.md#trees)
   * [Binary Tree](trees-heaps-graphs-js.md#binary-tree)
@@ -61,9 +61,9 @@
 ### AVL Tree
 
 * First **balanced** binary search tree 
-* Heights of siblings can differ by at most 1
+* **Heights** of siblings can **differ** by at most **1**
 * Minimize single look up time, not exceed O\(log n\)
-* Useful in multithreaded environments
+* Useful in **multithreaded** environments
 
 ### Splay Tree
 
@@ -72,25 +72,25 @@
   * Zig-Zig
   * Zig-Zag
   * Zig
-* Preferred for lots search, less insertion and deletion \(cause rotations\)
+* Preferred for **lots search**, less insertion and deletion \(cause rotations\)
 * Minimize total lookup time.
 * Easier to implement, compare to AVL tree. 
 
 ### Red Black Tree
 
 * Self-balancing BST
-  * Each node has colour either red or black
+  * Each node has colour either **red** or **black**
   * No two adjacent red nodes
   * Every path from a node to any its descendant Null node has same number of black nodes
-* Preferred for lots insertions and deletions
+* Preferred for **lots insertions and deletions**
 
 ## Heaps 
 
 * Binary tree with **additional rules**
 * **Complete binary tree** – last node of the heap is the rightmost node of depth _h_
 * Build Heap: Botton up heap construction – O\(n\)
-* Insertion: upheap – O\(log n\)
-* Deletion: downheap – O\(log n\)
+* Insertion: **upheap** – O\(log n\)
+* Deletion: **downheap** – O\(log n\)
 
 ### Max Heap
 
@@ -111,11 +111,11 @@
 
 ### Depth First Search 
 
-* Traversing down through one branch to the leaf, then back to "trunk".
+* Traversing down through one **branch** to the **leaf**, then back to "trunk".
 * Use **Stack** – O\(n\)
 
 ### Breadth First Search
 
-* Search through a tree one level at a time
+* Search through a tree **one level at a time**
 * Use **Queue** – O\(n\)
 
