@@ -1,4 +1,8 @@
-# Relative Sort Array
+---
+description: Easy
+---
+
+# 1122. Relative Sort Array
 
 ## Question
 

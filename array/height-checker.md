@@ -1,4 +1,8 @@
-# Height Checker
+---
+description: Easy
+---
+
+# 1051. Height Checker
 
 ## Question
 

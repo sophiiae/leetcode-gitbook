@@ -1,4 +1,8 @@
-# Squares of a Sorted Array
+---
+description: Easy
+---
+
+# 977. Squares of a Sorted Array
 
 ## Question 
 

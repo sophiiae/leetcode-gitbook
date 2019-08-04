@@ -1,4 +1,8 @@
-# Defanging an IP Address
+---
+description: Easy
+---
+
+# 1108. Defanging an IP Address
 
 ## Question
 

@@ -1,4 +1,8 @@
-# Add Binary
+---
+description: Easy
+---
+
+# 67. Add Binary
 
 ## Question
 

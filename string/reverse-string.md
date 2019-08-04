@@ -1,4 +1,8 @@
-# Reverse String
+---
+description: Easy
+---
+
+# 344. Reverse String
 
 ## Question
 

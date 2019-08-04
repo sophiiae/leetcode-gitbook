@@ -1,4 +1,8 @@
-# Length of Last Word
+---
+description: Easy
+---
+
+# 58. Length of Last Word
 
 ## Question
 

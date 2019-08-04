@@ -1,4 +1,8 @@
-# Contains Duplicate II
+---
+description: Easy
+---
+
+# 219. Contains Duplicate II
 
 ## Question
 

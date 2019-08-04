@@ -1,4 +1,8 @@
-# Flipping an Image
+---
+description: Easy
+---
+
+# 832. Flipping an Image
 
 ## Question
 

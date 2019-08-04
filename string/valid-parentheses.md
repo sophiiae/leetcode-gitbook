@@ -1,4 +1,8 @@
-# Valid Parentheses
+---
+description: Easy
+---
+
+# 20. Valid Parentheses
 
 ## Question
 

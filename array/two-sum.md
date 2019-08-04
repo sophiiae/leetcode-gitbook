@@ -1,4 +1,8 @@
-# Two Sum
+---
+description: Easy
+---
+
+# 1. Two Sum
 
 ## Question
 

@@ -1,4 +1,8 @@
-# Missing Number
+---
+description: Easy
+---
+
+# 268. Missing Number
 
 ## Question 
 

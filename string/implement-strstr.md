@@ -1,4 +1,8 @@
-# Implement strStr\(\)
+---
+description: Easy
+---
+
+# 28. Implement strStr\(\)
 
 ## Question
 

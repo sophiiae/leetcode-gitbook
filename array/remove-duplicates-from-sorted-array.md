@@ -1,4 +1,8 @@
-# Remove Duplicates from Sorted Array
+---
+description: Easy
+---
+
+# 83. Remove Duplicates from Sorted Array
 
 ## Question
 

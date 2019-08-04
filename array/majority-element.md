@@ -1,4 +1,8 @@
-# Majority Element
+---
+description: Easy
+---
+
+# 169. Majority Element
 
 ## Question
 

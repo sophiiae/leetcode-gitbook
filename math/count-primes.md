@@ -1,4 +1,8 @@
-# Count Primes
+---
+description: Easy
+---
+
+# 204. Count Primes
 
 ## Question
 

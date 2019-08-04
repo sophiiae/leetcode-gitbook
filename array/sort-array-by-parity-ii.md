@@ -1,4 +1,8 @@
-# Sort Array By Parity II
+---
+description: Easy
+---
+
+# 922. Sort Array By Parity II
 
 ## Question
 

@@ -1,4 +1,8 @@
-# Unique Morse Code Words
+---
+description: Easy
+---
+
+# 804. Unique Morse Code Words
 
 ## Question
 

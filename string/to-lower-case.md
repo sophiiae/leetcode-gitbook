@@ -1,4 +1,8 @@
-# To Lower Case
+---
+description: Easy
+---
+
+# 709. To Lower Case
 
 ## Question
 

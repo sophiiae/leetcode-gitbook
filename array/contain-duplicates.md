@@ -1,4 +1,8 @@
-# Contain Duplicates
+---
+description: Easy
+---
+
+# 217. Contain Duplicates
 
 ## Question
 

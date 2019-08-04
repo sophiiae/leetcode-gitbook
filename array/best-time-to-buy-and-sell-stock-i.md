@@ -1,4 +1,8 @@
-# Best Time to Buy and Sell Stock I
+---
+description: Easy
+---
+
+# 121. Best Time to Buy and Sell Stock I
 
 ## Question
 

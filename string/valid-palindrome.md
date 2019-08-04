@@ -1,4 +1,8 @@
-# Valid Palindrome
+---
+description: Easy
+---
+
+# 125. Valid Palindrome
 
 ## Question
 

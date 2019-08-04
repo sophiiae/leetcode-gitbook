@@ -1,4 +1,8 @@
-# Sqrt\(x\)
+---
+description: Easy
+---
+
+# 69. Sqrt\(x\)
 
 ## Question
 

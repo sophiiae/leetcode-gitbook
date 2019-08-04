@@ -1,4 +1,8 @@
-# Longest Common Prefix
+---
+description: Easy
+---
+
+# 14. Longest Common Prefix
 
 ## Question
 

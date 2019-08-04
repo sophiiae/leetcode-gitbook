@@ -1,4 +1,8 @@
-# Move Zeroes
+---
+description: Easy
+---
+
+# 283. Move Zeroes
 
 ## Question
 

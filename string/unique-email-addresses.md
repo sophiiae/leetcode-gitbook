@@ -1,4 +1,8 @@
-# Unique Email Addresses
+---
+description: Easy
+---
+
+# 929. Unique Email Addresses
 
 ## Question
 

@@ -1,4 +1,8 @@
-# First Unique Character in a String
+---
+description: Easy
+---
+
+# 387. First Unique Character in a String
 
 ## Question
 
