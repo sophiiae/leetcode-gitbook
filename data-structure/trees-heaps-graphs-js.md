@@ -17,8 +17,8 @@
 
 ### **Terminology**
 
-* **Depth** – number of ancestors \(exclude itself\)
-* **Height** – maximum depth of any node
+* **Depth** **of a node** – number of ancestors \(exclude itself\) / number of edge to the root
+* **Height of a tree** – maximum depth of any node
 * **Traversal**
   * **Preorder**: a node is visited before its descendants
   * **Postorder**: a node is visited after its descendants
