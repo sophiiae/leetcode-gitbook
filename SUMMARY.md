@@ -39,6 +39,7 @@
   * [69. Sqrt\(x\)](math/sqrt-x.md)
   * [204. Count Primes](math/count-primes.md)
 * [Data Structure](data-structure/README.md)
+  * [Sorting](data-structure/sorting.md)
   * [Hash Table, Map, Object, Set \(JS\)](data-structure/hash-table-map-object-set-js.md)
   * [String \(JS\)](data-structure/string-js.md)
   * [Linear Data Structure \(JS\)](data-structure/linear-data-structure.md)
