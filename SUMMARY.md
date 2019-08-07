@@ -22,6 +22,8 @@
   * [832. Flipping an Image](array/flipping-an-image.md)
   * [1051. Height Checker](array/height-checker.md)
   * [1122. Relative Sort Array](array/relative-sort-array.md)
+* [Linked List](linked-list/README.md)
+  * [2. Add Two Numbers](linked-list/2.-add-two-numbers.md)
 * [String](string/README.md)
   * [14. Longest Common Prefix](string/longest-common-prefix.md)
   * [20. Valid Parentheses](string/valid-parentheses.md)
