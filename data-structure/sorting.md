@@ -53,7 +53,7 @@ def selectionSort(nums):
 1. Go through all elements, compare it with the one after it.If current index has greater value, swap. 每次和后一个数对比，如果大，就交换。每次把最大的数放后面。
 2. Repeats until all elements are sorted. 
 
-Time complexity: 
+**Time complexity:** 
 
 * Best: O\(n\) - if nearly sorted
 * Worst: O\(n^2\)
@@ -74,9 +74,61 @@ def bubbleSort(nums):
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
+* Go through all elements, compare it with the one before it, keep going until it's larger or first of array.  每次往前比较，直到它比前面的数字都大或者前面没数字了。
+
+```python
+def insertionSort(nums):
+    for i in range(nums):
+        j = i
+        while(j > 0 and nums[j] < nums[j-1]):
+            nums[j],nums[j-1] = nums[j-1], nums[j]
+```
+
 ## Merge Sort
 
 ![](../.gitbook/assets/image%20%285%29.png)
+
+1. **Divide**: split partition into two sequence, about `n/2` elements each
+2. **Conquer**: merge two sorted subsequences into a **sorted** sequence
+
+**Complexity:** 
+
+* Time complexity: O\(n log n\)
+* Space complexity: O\(n\) – store partitions for merge
+
+```python
+def mergeSort(A, l, r):
+    m = (m + r) // 2
+    mergeSort(A, l, m)
+    mergeSort(A, m+1, r)
+    
+def merge(A, l, m, r):
+    n1, n2 = m-l+1, r-m
+    left, right = [0]*n1, [0]*n2 #create tmp arrays
+    for i in range(n1):
+        left[i] = A[l+i]
+    for j in range(n2):
+        right[j] = A[m+j+1]
+        
+    #merge temp arrays back into A
+    i, j, k = 0, 0, 1
+    while(i < n1 and j < n2):
+        if left[i] <= right[j]:
+            A[k] = left[i]
+            i += 1
+        else: 
+            A[k] = right[j]
+            j += 1
+        k += 1
+    while(i< n1): #copy remain elements in left
+        A[k] = left[i]
+        i += 1 
+        k += 1
+    while(j < n2): #copy remain elements in right
+        A[k] = right[j]
+        j += 1
+        k += 1
+```
 
 ## Heap Sort
 
