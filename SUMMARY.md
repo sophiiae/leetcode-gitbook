@@ -26,6 +26,7 @@
   * [2. Add Two Numbers](linked-list/2.-add-two-numbers.md)
 * [String](string/README.md)
   * [3. Longest Substring Without Repeating Characters](string/3.-longest-substring-without-repeating-characters.md)
+  * [5. Longest Palindromic Substring](string/5.-longest-palindromic-substring.md)
   * [14. Longest Common Prefix](string/longest-common-prefix.md)
   * [20. Valid Parentheses](string/valid-parentheses.md)
   * [28. Implement strStr\(\)](string/implement-strstr.md)
