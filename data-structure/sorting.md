@@ -14,7 +14,7 @@
 
 ## Comparison Sorting
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 |  | Selection Sort | Bubble Sort | Insertion Sort | Merge Sort | Heap Sort | Quick Sort |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -86,7 +86,7 @@ def insertionSort(nums):
 
 ## Merge Sort
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 1. **Divide**: split partition into two sequence, about `n/2` elements each
 2. **Conquer**: merge two sorted subsequences into a **sorted** sequence
@@ -101,6 +101,7 @@ def mergeSort(A, l, r):
     m = (m + r) // 2
     mergeSort(A, l, m)
     mergeSort(A, m+1, r)
+    merge(A, l, m, r)
     
 def merge(A, l, m, r):
     n1, n2 = m-l+1, r-m
@@ -132,7 +133,54 @@ def merge(A, l, m, r):
 
 ## Heap Sort
 
+![](../.gitbook/assets/image%20%288%29.png)
+
+1. Build a internal max/min heap
+2. For every node from leaf to root, swap with current root, check if it's violates the max/min heap property, if does, perform heapify. 
+
+Time complexity: O\(n log n\)
+
+```python
+def heapSort(A):
+    buildHeap(A) 
+    i = len(A)
+    while(i > 1): # i -> n to 2
+        A[1], A[i] = A[i], A[1] #make new element as root
+        n -= 1
+        heapify(A, 1) # down heap
+        
+def buildHeap(A): #build max heap
+    i = len(A) // 2
+    while(i > 0): # n//2 to 1
+        heapify(A, i) # only heapify internal nodes here
+        i -= 1
+        
+def heapify(A, i): 
+    n = len(A)
+    while(i < n):
+        l = 2 * i
+        r = 2 * i + 1
+        largest = l if l < n and A[i] < A[l] else i
+        if r < n and A[r] > A[largest]:
+            largest = r
+        if i == largest:
+            break
+        A[i], A[largest] = A[largest],A[i]
+        i = largest
+    
+```
+
 ## Quick Sort
+
+1. Select a pivot, usually **first** or **last** element in the array
+2. **Divide**: partition array into 2 subarrays s.t. elements in the lower part &lt;= elements in the higher part. 
+3. **Conquer**: recursively sort the 2 subarrays
+
+Time complexity: O\(n log n\) – almost in-place
+
+```python
+
+```
 
 ## Linear Sorting
 
