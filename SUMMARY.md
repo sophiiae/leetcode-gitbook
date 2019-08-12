@@ -23,6 +23,7 @@
   * [1051. Height Checker](array/height-checker.md)
   * [1122. Relative Sort Array](array/relative-sort-array.md)
 * [String](string/README.md)
+  * [8. String to Integer \(atoi\)](string/8.-string-to-integer-atoi.md)
   * [3. Longest Substring Without Repeating Characters](string/3.-longest-substring-without-repeating-characters.md)
   * [5. Longest Palindromic Substring](string/5.-longest-palindromic-substring.md)
   * [6. ZigZag Conversion](string/6.-zigzag-conversion.md)
