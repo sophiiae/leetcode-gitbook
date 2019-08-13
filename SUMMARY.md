@@ -44,6 +44,7 @@
 * [Tree](tree.md)
 * [Math](math/README.md)
   * [7. Reverse Integer](math/7.-reverse-integer.md)
+  * [9. Palindrome Number](math/9.-palindrome-number.md)
   * [69. Sqrt\(x\)](math/sqrt-x.md)
   * [204. Count Primes](math/count-primes.md)
 * [Data Structure](data-structure/README.md)
