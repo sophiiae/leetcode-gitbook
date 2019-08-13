@@ -57,12 +57,16 @@ def longestCommonPrefix(self, strs: List[str]) -> str:
 def longestCommonPrefix(self, strs: List[str]) -> str:
     if len(strs) == 0:
         return ""
-    strs.sort()
-    for i,c in enumerate(strs[0]):
-        for j in range(1, len(strs)):
-            if i == len(strs[j]) or strs[j][i] != c:
-                return strs[0][:i]
-    return strs[0]
+    i, j = 0, 0
+    first = strs[0]
+    while (i < len(first)):
+        c = first[i] #current character
+        for j, s in enumerate(strs):
+            # if other string has no char or different char at i
+            if i > len(s)-1 or s[i] != c:
+                return first[:i]
+        i += 1
+    return first
 ```
 
 
