@@ -42,15 +42,16 @@ def maxArea(self, height: List[int]) -> int:
     l, r = 0, len(height) - 1
     
     while l < r:
+        length = r - l 
         left, right = height[l], height[r]
         if left < right:
-            currArea = (r - l) * left
+            currArea = length * left
             # keep going until find the one is higher, 
             # save calculation for every vertical line
-            while height[l] <= left:
+            while height[l] <= left: #right > left, so l < r
                 l += 1
         else:
-            currArea = (r - l) * right
+            currArea = length * right
             while height[r] <= right and r:
                 r -= 1
         most = max(most, currArea)        
