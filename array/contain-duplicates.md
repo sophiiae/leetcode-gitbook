@@ -1,5 +1,5 @@
 ---
-description: Easy
+description: "\U0001F7E9 Easy"
 ---
 
 # 217. Contain Duplicates

@@ -68,4 +68,4 @@
     * [Minimum Cost Tree From Leaf Values](contest/medium/minimum-cost-tree-from-leaf-values.md)
     * [Shortest Path with Alternating Colors](contest/medium/shortest-path-with-alternating-colors.md)
   * [Hard](contest/hard.md)
-* [Tags](tags.md)
+

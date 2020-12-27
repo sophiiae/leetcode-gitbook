@@ -1,5 +1,5 @@
 ---
-description: Easy
+description: "\U0001F7E9 Easy"
 ---
 
 # 167. Two Sum II - Input array is sorted

@@ -1,5 +1,5 @@
 ---
-description: Easy
+description: "\U0001F7E9 Easy"
 ---
 
 # 1108. Defanging an IP Address
