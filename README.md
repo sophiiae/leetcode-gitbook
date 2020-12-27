@@ -8,3 +8,5 @@ All the explanation is based on Google Research, Baidu Research and self-underst
 
 Solutions are written in Python.
 
+See markdown version on \[GitBook\]\([https://feifeizheng.gitbook.io/leetcode/](https://feifeizheng.gitbook.io/leetcode/)\)
+
