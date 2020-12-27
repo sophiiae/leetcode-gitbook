@@ -19,16 +19,12 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-## **Hash Table**
+## **Solution 1: Hash Table**
 
-Calculate the `remainder` after subtracting element from target, if the remainder can be found in the loop up table, then we can get the `index` and return the result. Otherwise, we add current element to the table. 
-
-## Complexity 
+Calculate the `remainder` after subtracting element from target, if the remainder can be found in the loop up table, then we can get the `index` and return the result. Otherwise, we add the current element to the table. 
 
 * Time complexity: O\(n\)
 * Space complexity: O\(n\)
-
-## Code
 
 ```python
 def twoSum(self, nums, target):
@@ -38,5 +34,26 @@ def twoSum(self, nums, target):
         if (x in table):
             return [table[remain], i]
         table[nums[i]] = i
+```
+
+## **Solution 2: Two Pointers**
+
+Sort the input array in non-descending order, then use two pointers, one at the first element and one at the last. If the sum of two pointed elements is greater than the target value, move the right pointer to its left. Similarly, if the sum is less, move the left pointer to its right.
+
+* Time complexity: O\(n log n\)
+* Space complexity: O\(1\)
+
+```python
+def twoSum(self, nums, target):
+    nums.sort()
+    left, right = 1, len(nums) - 1
+    while(left < right):
+        sum = nums[left] + nums[right]
+        if sum == target:
+            return [nums[left], nums[right]]
+        elif sum > target:
+            right -= 1
+        else:
+            left += 1
 ```
 
