@@ -1,5 +1,5 @@
 ---
-description: Medium
+description: "\U0001F7E8 Medium"
 ---
 
 # 11. Container With Most Water
