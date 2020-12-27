@@ -133,7 +133,7 @@ def merge(A, l, m, r):
 
 ## Heap Sort
 
-![](../.gitbook/assets/image%20%288%29%20%281%29%20%281%29.png)
+![](../.gitbook/assets/image%20%288%29%20%281%29%20%281%29%20%281%29.png)
 
 1. Build a internal max/min heap
 2. For every node from leaf to root, swap with current root, check if it's violates the max/min heap property, if does, perform heapify. 

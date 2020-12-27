@@ -26,6 +26,17 @@ Calculate the `remainder` after subtracting element from target, if the remainde
 * Time complexity: O\(n\)
 * Space complexity: O\(n\)
 
+## **Solution 2: Two Pointers**
+
+Sort the input array in non-descending order, then use two pointers, one at the first element and one at the last. If the sum of two pointed elements is greater than the target value, move the right pointer to its left. Similarly, if the sum is less, move the left pointer to its right.
+
+* Time complexity: O\(n log n\)
+* Space complexity: O\(1\)
+
+## Code
+
+{% tabs %}
+{% tab title="HashTable" %}
 ```python
 def twoSum(self, nums, target):
     table = {}
@@ -35,14 +46,9 @@ def twoSum(self, nums, target):
             return [table[remain], i]
         table[nums[i]] = i
 ```
+{% endtab %}
 
-## **Solution 2: Two Pointers**
-
-Sort the input array in non-descending order, then use two pointers, one at the first element and one at the last. If the sum of two pointed elements is greater than the target value, move the right pointer to its left. Similarly, if the sum is less, move the left pointer to its right.
-
-* Time complexity: O\(n log n\)
-* Space complexity: O\(1\)
-
+{% tab title="TwoPointer" %}
 ```python
 def twoSum(self, nums, target):
     nums.sort()
@@ -56,4 +62,8 @@ def twoSum(self, nums, target):
         else:
             left += 1
 ```
+{% endtab %}
+{% endtabs %}
+
+
 
